@@ -300,7 +300,12 @@
 	SHKOAuthSharer *sharer = [[self alloc] init];
 	if (sharer.authorizeURL)
 	{
-		[NSHTTPCookieStorage deleteCookiesForURL:sharer.authorizeURL];
+		NSHTTPCookieStorage *storage = [NSHTTPCookieStorage sharedHTTPCookieStorage];
+        NSArray *cookies = [storage cookiesForURL:sharer.authorizeURL];
+        for (NSHTTPCookie *each in cookies) 
+        {
+            [storage deleteCookie:each];
+        }
     }
 	[sharer release];
 }

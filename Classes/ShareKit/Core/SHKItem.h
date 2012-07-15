@@ -120,7 +120,8 @@ typedef enum
 /* SHKMail */
 @property (nonatomic, retain) NSString *mailBody;
 @property BOOL isMailHTML;
-@property (nonatomic, retain) NSArray *mailToRecipients; 
+@property (nonatomic, retain) NSArray *mailToRecipients;
+@property (nonatomic, retain) NSData *imageData;
 @property CGFloat mailJPGQuality; 
 @property BOOL mailShareWithAppSignature; //default NO. Appends "Sent from <appName>"
 

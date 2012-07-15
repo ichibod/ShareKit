@@ -45,7 +45,7 @@
 @synthesize URL, URLContentType, image, title, text, tags, data, mimeType, filename;
 @synthesize custom;
 @synthesize printOutputType;
-@synthesize mailBody, mailJPGQuality, mailToRecipients, isMailHTML, mailShareWithAppSignature;
+@synthesize mailBody, mailJPGQuality, mailToRecipients, isMailHTML, mailShareWithAppSignature, imageData;
 @synthesize facebookURLSharePictureURI, facebookURLShareDescription;
 
 - (void)dealloc
@@ -68,6 +68,7 @@
     [mailToRecipients release];
     [facebookURLSharePictureURI release];
     [facebookURLShareDescription release];
+    [imageData release];
 	
 	[super dealloc];
 }

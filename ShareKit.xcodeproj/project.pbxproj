@@ -25,7 +25,6 @@
 		43C91D1D11EB963600F31FAE /* MainWindow-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 43C91D1C11EB963600F31FAE /* MainWindow-iPad.xib */; };
 		43D1DEF011D5CDD200550D75 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43D1DEEF11D5CDD200550D75 /* SystemConfiguration.framework */; };
 		43EF406E11D3FFF800B1F700 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43EF406D11D3FFF800B1F700 /* Security.framework */; };
-		7A0F91D0156B9FF2009CB40A /* SHKDelicious.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A0F91CE156B9FF2009CB40A /* SHKDelicious.m */; };
 		7A0F91D5156BA2A0009CB40A /* SHKCustomFormFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A536B111DBE3B9004A1712 /* SHKCustomFormFieldCell.m */; };
 		7A0F91D6156BA2A0009CB40A /* SHKCustomFormControllerLargeTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BD2BD53153431390042EB86 /* SHKCustomFormControllerLargeTextField.m */; };
 		7A0F91D9156BA2A0009CB40A /* SHK.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A536A711DBE3B9004A1712 /* SHK.m */; };
@@ -197,7 +196,6 @@
 		7AB5352A1552BE7D00171BCE /* (null) in Sources */ = {isa = PBXBuildFile; };
 		7AB5352D1552BE7D00171BCE /* (null) in Sources */ = {isa = PBXBuildFile; };
 		7AB5352F1552BE7D00171BCE /* (null) in Sources */ = {isa = PBXBuildFile; };
-		7AB535311552BE7D00171BCE /* SHKEvernote.m in Sources */ = {isa = PBXBuildFile; fileRef = 4379F2B11291AC9700D2A41E /* SHKEvernote.m */; };
 		7AB535351552BE7D00171BCE /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AC22D2814580A2000126878 /* NSObject+SBJSON.m */; };
 		7AB535371552BE7D00171BCE /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AC22D2A14580A2000126878 /* NSString+SBJSON.m */; };
 		7AB535391552BE7D00171BCE /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AC22D2C14580A2000126878 /* SBJSON.m */; };
@@ -209,26 +207,9 @@
 		7AB535461552BE7D00171BCE /* FBLoginDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AC22D2314580A2000126878 /* FBLoginDialog.m */; };
 		7AB535481552BE7D00171BCE /* FBDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AC22D2514580A2000126878 /* FBDialog.m */; };
 		7AB5354A1552BE7D00171BCE /* SHKFacebook.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A536DD11DBE3B9004A1712 /* SHKFacebook.m */; };
-		7AB5354C1552BE7D00171BCE /* NSError+SHKFoursquareV2.m in Sources */ = {isa = PBXBuildFile; fileRef = C0276D7514336ACC00C93FAA /* NSError+SHKFoursquareV2.m */; };
-		7AB5354E1552BE7D00171BCE /* SHKFoursquareV2CheckInForm.m in Sources */ = {isa = PBXBuildFile; fileRef = C0276D7714336ACD00C93FAA /* SHKFoursquareV2CheckInForm.m */; };
-		7AB535501552BE7D00171BCE /* SHKFoursquareV2Venue.m in Sources */ = {isa = PBXBuildFile; fileRef = C0276D7914336ACD00C93FAA /* SHKFoursquareV2Venue.m */; };
-		7AB535521552BE7D00171BCE /* SHKFoursquareV2VenuesForm.m in Sources */ = {isa = PBXBuildFile; fileRef = C0276D7B14336ACE00C93FAA /* SHKFoursquareV2VenuesForm.m */; };
-		7AB535541552BE7D00171BCE /* SHKFoursquareV2.m in Sources */ = {isa = PBXBuildFile; fileRef = C042A6201430AB7800DF9AF6 /* SHKFoursquareV2.m */; };
-		7AB535561552BE7D00171BCE /* SHKFoursquareV2OAuthView.m in Sources */ = {isa = PBXBuildFile; fileRef = C042A6231430B35300DF9AF6 /* SHKFoursquareV2OAuthView.m */; };
-		7AB535581552BE7D00171BCE /* SHKFoursquareV2Request.m in Sources */ = {isa = PBXBuildFile; fileRef = C05E48081430D9BC008F2366 /* SHKFoursquareV2Request.m */; };
-		7AB5355A1552BE7D00171BCE /* ObjectiveFlickr.m in Sources */ = {isa = PBXBuildFile; fileRef = A57772B714BA1900003FC744 /* ObjectiveFlickr.m */; };
 		7AB5355C1552BE7D00171BCE /* OFUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = A57772B914BA1900003FC744 /* OFUtilities.m */; };
 		7AB5355E1552BE7D00171BCE /* OFXMLMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = A57772BB14BA1900003FC744 /* OFXMLMapper.m */; };
-		7AB535671552BE7D00171BCE /* SHKFlickr.m in Sources */ = {isa = PBXBuildFile; fileRef = AAACE06113CCBED400A2118F /* SHKFlickr.m */; };
-		7AB535691552BE7D00171BCE /* SHKGoogleReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A536E011DBE3B9004A1712 /* SHKGoogleReader.m */; };
-		7AB5356B1552BE7D00171BCE /* SHKInstapaper.m in Sources */ = {isa = PBXBuildFile; fileRef = 43150A8C11E78697008C6B68 /* SHKInstapaper.m */; };
-		7AB5356D1552BE7D00171BCE /* SHKLinkedIn.m in Sources */ = {isa = PBXBuildFile; fileRef = C0AD00F3142B7B6D000862D9 /* SHKLinkedIn.m */; };
-		7AB5356F1552BE7D00171BCE /* SHKLinkedInOAMutableURLRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C0AD00F5142B7B6D000862D9 /* SHKLinkedInOAMutableURLRequest.m */; };
-		7AB535711552BE7D00171BCE /* SHKPinboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A536E311DBE3B9004A1712 /* SHKPinboard.m */; };
-		7AB535731552BE7D00171BCE /* SHKReadItLater.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A536E611DBE3B9004A1712 /* SHKReadItLater.m */; };
-		7AB535751552BE7D00171BCE /* SHKTumblr.m in Sources */ = {isa = PBXBuildFile; fileRef = 43C91DF411EBAE4800F31FAE /* SHKTumblr.m */; };
 		7AB535771552BE7D00171BCE /* SHKiOS5Twitter.m in Sources */ = {isa = PBXBuildFile; fileRef = F92EF488148E915E0070F913 /* SHKiOS5Twitter.m */; };
-		7AB535791552BE7D00171BCE /* SHKTwitter.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A536E911DBE3B9004A1712 /* SHKTwitter.m */; };
 		7AB5357B1552BE7D00171BCE /* SHKActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A536EF11DBE3B9004A1712 /* SHKActionSheet.m */; };
 		7AB5357D1552BE7D00171BCE /* SHKActivityIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A536F111DBE3B9004A1712 /* SHKActivityIndicator.m */; };
 		7AB5357F1552BE7D00171BCE /* SHKFormController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A536F311DBE3B9004A1712 /* SHKFormController.m */; };
@@ -239,30 +220,6 @@
 		7AB535891552BE7D00171BCE /* SHKOAuthView.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A536FB11DBE3B9004A1712 /* SHKOAuthView.m */; };
 		7AB5358B1552BE7D00171BCE /* SHKShareMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A536FD11DBE3B9004A1712 /* SHKShareMenu.m */; };
 		7AB5358F1552BE7D00171BCE /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A536B411DBE3B9004A1712 /* Reachability.m */; };
-		7AB804F115AC79D8004FB430 /* GCOAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EDC75E156CFBF400E3303E /* GCOAuth.m */; };
-		7AB804F315AC79D8004FB430 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EDC761156CFBF400E3303E /* NSData+Base64.m */; };
-		7AB804F715AC7A21004FB430 /* TBinaryProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EDC76E156CFBF400E3303E /* TBinaryProtocol.m */; };
-		7AB804F815AC7A21004FB430 /* TProtocolException.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EDC771156CFBF400E3303E /* TProtocolException.m */; };
-		7AB804F915AC7A21004FB430 /* TProtocolUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EDC774156CFBF400E3303E /* TProtocolUtil.m */; };
-		7AB804FA15AC7A21004FB430 /* TApplicationException.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EDC779156CFBF400E3303E /* TApplicationException.m */; };
-		7AB804FB15AC7A21004FB430 /* TException.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EDC77B156CFBF400E3303E /* TException.m */; };
-		7AB804FC15AC7A21004FB430 /* THTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EDC781156CFBF400E3303E /* THTTPClient.m */; };
-		7AB804FD15AC7A21004FB430 /* TMemoryBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EDC783156CFBF400E3303E /* TMemoryBuffer.m */; };
-		7AB8050115AC7A5F004FB430 /* TTransportException.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EDC78C156CFBF400E3303E /* TTransportException.m */; };
-		7AB8050215AC7A64004FB430 /* TSharedProcessorFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EDC78E156CFBF400E3303E /* TSharedProcessorFactory.m */; };
-		7AB8050315AC7A6A004FB430 /* EDAMErrors.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EDC792156CFBF400E3303E /* EDAMErrors.m */; };
-		7AB8050415AC7A6F004FB430 /* EDAMLimits.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EDC794156CFBF400E3303E /* EDAMLimits.m */; };
-		7AB8050515AC7A73004FB430 /* EDAMNoteStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EDC796156CFBF400E3303E /* EDAMNoteStore.m */; };
-		7AB8050615AC7A7E004FB430 /* EDAMTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EDC798156CFBF400E3303E /* EDAMTypes.m */; };
-		7AB8050715AC7A83004FB430 /* EDAMUserStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EDC79A156CFBF400E3303E /* EDAMUserStore.m */; };
-		7AB8050815AC7A8B004FB430 /* EvernoteNoteStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EDC79D156CFBF400E3303E /* EvernoteNoteStore.m */; };
-		7AB8050915AC7A8E004FB430 /* EvernoteSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EDC79F156CFBF400E3303E /* EvernoteSDK.m */; };
-		7AB8050A15AC7A90004FB430 /* EvernoteSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EDC7A1156CFBF400E3303E /* EvernoteSession.m */; };
-		7AB8050B15AC7A93004FB430 /* EvernoteUserStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EDC7A3156CFBF400E3303E /* EvernoteUserStore.m */; };
-		7AB8050C15AC7A97004FB430 /* ENAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EDC7A6156CFBF400E3303E /* ENAPI.m */; };
-		7AB8050D15AC7A9A004FB430 /* ENCredentials.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EDC7A8156CFBF400E3303E /* ENCredentials.m */; };
-		7AB8050E15AC7A9D004FB430 /* ENCredentialStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EDC7AA156CFBF400E3303E /* ENCredentialStore.m */; };
-		7AB8050F15AC7AAF004FB430 /* ENOAuthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 427FBAB21592F7C90024F825 /* ENOAuthViewController.m */; };
 		7AB8051015AC7BC9004FB430 /* GTMNSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = 427FBAEE15934A0D0024F825 /* GTMNSString+HTML.m */; };
 		7AB8051115AC7BCC004FB430 /* GTMNSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = 427FBAEE15934A0D0024F825 /* GTMNSString+HTML.m */; };
 		7ABCDBA91577528B003BBFFD /* SHKFormFieldCellSwitch.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ABCDBA71577528B003BBFFD /* SHKFormFieldCellSwitch.h */; };
@@ -1777,7 +1734,6 @@
 				7AB5352A1552BE7D00171BCE /* (null) in Sources */,
 				7AB5352D1552BE7D00171BCE /* (null) in Sources */,
 				7AB5352F1552BE7D00171BCE /* (null) in Sources */,
-				7AB535311552BE7D00171BCE /* SHKEvernote.m in Sources */,
 				7AB535351552BE7D00171BCE /* NSObject+SBJSON.m in Sources */,
 				7AB535371552BE7D00171BCE /* NSString+SBJSON.m in Sources */,
 				7AB535391552BE7D00171BCE /* SBJSON.m in Sources */,
@@ -1789,26 +1745,9 @@
 				7AB535461552BE7D00171BCE /* FBLoginDialog.m in Sources */,
 				7AB535481552BE7D00171BCE /* FBDialog.m in Sources */,
 				7AB5354A1552BE7D00171BCE /* SHKFacebook.m in Sources */,
-				7AB5354C1552BE7D00171BCE /* NSError+SHKFoursquareV2.m in Sources */,
-				7AB5354E1552BE7D00171BCE /* SHKFoursquareV2CheckInForm.m in Sources */,
-				7AB535501552BE7D00171BCE /* SHKFoursquareV2Venue.m in Sources */,
-				7AB535521552BE7D00171BCE /* SHKFoursquareV2VenuesForm.m in Sources */,
-				7AB535541552BE7D00171BCE /* SHKFoursquareV2.m in Sources */,
-				7AB535561552BE7D00171BCE /* SHKFoursquareV2OAuthView.m in Sources */,
-				7AB535581552BE7D00171BCE /* SHKFoursquareV2Request.m in Sources */,
-				7AB5355A1552BE7D00171BCE /* ObjectiveFlickr.m in Sources */,
 				7AB5355C1552BE7D00171BCE /* OFUtilities.m in Sources */,
 				7AB5355E1552BE7D00171BCE /* OFXMLMapper.m in Sources */,
-				7AB535671552BE7D00171BCE /* SHKFlickr.m in Sources */,
-				7AB535691552BE7D00171BCE /* SHKGoogleReader.m in Sources */,
-				7AB5356B1552BE7D00171BCE /* SHKInstapaper.m in Sources */,
-				7AB5356D1552BE7D00171BCE /* SHKLinkedIn.m in Sources */,
-				7AB5356F1552BE7D00171BCE /* SHKLinkedInOAMutableURLRequest.m in Sources */,
-				7AB535711552BE7D00171BCE /* SHKPinboard.m in Sources */,
-				7AB535731552BE7D00171BCE /* SHKReadItLater.m in Sources */,
-				7AB535751552BE7D00171BCE /* SHKTumblr.m in Sources */,
 				7AB535771552BE7D00171BCE /* SHKiOS5Twitter.m in Sources */,
-				7AB535791552BE7D00171BCE /* SHKTwitter.m in Sources */,
 				7AB5357B1552BE7D00171BCE /* SHKActionSheet.m in Sources */,
 				7AB5357D1552BE7D00171BCE /* SHKActivityIndicator.m in Sources */,
 				7AB5357F1552BE7D00171BCE /* SHKFormController.m in Sources */,
@@ -1819,7 +1758,6 @@
 				7AB535891552BE7D00171BCE /* SHKOAuthView.m in Sources */,
 				7AB5358B1552BE7D00171BCE /* SHKShareMenu.m in Sources */,
 				7AB5358F1552BE7D00171BCE /* Reachability.m in Sources */,
-				7A0F91D0156B9FF2009CB40A /* SHKDelicious.m in Sources */,
 				7A0F9252156BA5F3009CB40A /* LFHTTPRequest.m in Sources */,
 				7A0F9254156BA5F3009CB40A /* LFSiteReachability.m in Sources */,
 				7A0F9257156BA5F3009CB40A /* NSData+LFHTTPFormExtensions.m in Sources */,
@@ -1830,30 +1768,6 @@
 				7A164DC4157662ED00D55DB4 /* SHKFormFieldCellText.m in Sources */,
 				7ABCDBAB1577528B003BBFFD /* SHKFormFieldCellSwitch.m in Sources */,
 				7ABCDBB2157757D1003BBFFD /* SHKFormFieldCellOptionPicker.m in Sources */,
-				7AB804F115AC79D8004FB430 /* GCOAuth.m in Sources */,
-				7AB804F315AC79D8004FB430 /* NSData+Base64.m in Sources */,
-				7AB804F715AC7A21004FB430 /* TBinaryProtocol.m in Sources */,
-				7AB804F815AC7A21004FB430 /* TProtocolException.m in Sources */,
-				7AB804F915AC7A21004FB430 /* TProtocolUtil.m in Sources */,
-				7AB804FA15AC7A21004FB430 /* TApplicationException.m in Sources */,
-				7AB804FB15AC7A21004FB430 /* TException.m in Sources */,
-				7AB804FC15AC7A21004FB430 /* THTTPClient.m in Sources */,
-				7AB804FD15AC7A21004FB430 /* TMemoryBuffer.m in Sources */,
-				7AB8050115AC7A5F004FB430 /* TTransportException.m in Sources */,
-				7AB8050215AC7A64004FB430 /* TSharedProcessorFactory.m in Sources */,
-				7AB8050315AC7A6A004FB430 /* EDAMErrors.m in Sources */,
-				7AB8050415AC7A6F004FB430 /* EDAMLimits.m in Sources */,
-				7AB8050515AC7A73004FB430 /* EDAMNoteStore.m in Sources */,
-				7AB8050615AC7A7E004FB430 /* EDAMTypes.m in Sources */,
-				7AB8050715AC7A83004FB430 /* EDAMUserStore.m in Sources */,
-				7AB8050815AC7A8B004FB430 /* EvernoteNoteStore.m in Sources */,
-				7AB8050915AC7A8E004FB430 /* EvernoteSDK.m in Sources */,
-				7AB8050A15AC7A90004FB430 /* EvernoteSession.m in Sources */,
-				7AB8050B15AC7A93004FB430 /* EvernoteUserStore.m in Sources */,
-				7AB8050C15AC7A97004FB430 /* ENAPI.m in Sources */,
-				7AB8050D15AC7A9A004FB430 /* ENCredentials.m in Sources */,
-				7AB8050E15AC7A9D004FB430 /* ENCredentialStore.m in Sources */,
-				7AB8050F15AC7AAF004FB430 /* ENOAuthViewController.m in Sources */,
 				7AB8051015AC7BC9004FB430 /* GTMNSString+HTML.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

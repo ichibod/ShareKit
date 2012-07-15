@@ -176,10 +176,14 @@
     if (toRecipients)
 		[mailController setToRecipients:toRecipients];
     
-	if (item.image){
+	if (item.image || item.imageData){
         
-        CGFloat jpgQuality = self.item.mailJPGQuality;
-        [mailController addAttachmentData:UIImageJPEGRepresentation(item.image, jpgQuality) mimeType:@"image/jpeg" fileName:@"Image.jpg"];
+        if (item.imageData != nil) {
+            [mailController addAttachmentData:item.imageData mimeType:@"image/jpeg" fileName:@"Laser-Meme-Photo.jpg"];
+        } else {
+            CGFloat jpgQuality = self.item.mailJPGQuality;
+            [mailController addAttachmentData:UIImageJPEGRepresentation(item.image, jpgQuality) mimeType:@"image/jpeg" fileName:@"Meme.jpg"];
+        }
 	}
 	
 	[mailController setSubject:item.title];
@@ -211,6 +215,5 @@
 	}
 	[self autorelease];
 }
-
 
 @end
